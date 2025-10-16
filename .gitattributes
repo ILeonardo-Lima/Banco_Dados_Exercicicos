@@ -1,3 +1,5 @@
 *.sql linguist-language=SQL
 
 *.sql linguist-generated=false
+
+*.sql linguist-detectable=true
