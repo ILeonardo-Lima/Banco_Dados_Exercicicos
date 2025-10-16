@@ -1,21 +1,16 @@
---Planilha/Tabela: Estudante
-CREATE TABLE ESTUDANTE(
-	ID SERIAL PRIMARY KEY, -- COLUNA DE IDENTIFICAÇÃO
-	NOME VARCHAR(100), -- VARCHAR O TAMANHO É VARIÁVEL
-	MATRICULA CHAR(10), -- CHAR O TAMANHO É FIXO
-	CURSO VARCAHR(50), 
-	LOGIN VARCHAR(20), 
-	SENHA VARCHAR(15),
-	DATA_NASCIMENTO DATE -- RECEBE DATAS NO FORMATO YYYY-MM-DD
+-- Criação da tabela de clientes
+CREATE TABLE Clientes (
+    ID INT PRIMARY KEY,
+    Nome VARCHAR(100),
+    Email VARCHAR(100),
+    DataCadastro DATE
 );
 
---Planilha/Tabela: Docente
-CREATE TABLE DOCENTE (
-	ID SERIAL PRIMARY KEY,
-	NOME VARCHAR(100),
-	MATRICULA CHAR(7),
-	UNIDADE_CURRICULAR VARCHAR(20),
-	LOGIN VARCHAR(20),
-	SENHA VARCHAR(15),
-	DATA_NASCIMENTO DATE
-);
+-- Inserção de dados
+INSERT INTO Clientes (ID, Nome, Email, DataCadastro)
+VALUES
+(1, 'Ana Souza', 'ana@email.com', '2022-01-10'),
+(2, 'Carlos Lima', 'carlos@email.com', '2022-02-15');
+
+-- Consulta
+SELECT * FROM Clientes;
