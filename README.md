@@ -17,3 +17,9 @@ Curso técnico de **Programador Back-end** oferecido pelo SENAI, com foco em des
 - PostgreSQL
 - DBeaver / MySQL Workbench
 - SQL puro 
+
+Leonardo Lima
+Aluno do curso de Programador Back-end - SENAI 
+
+<a href="https://www.linkedin.com/in/leonardo-de-oliveira-lima-8b1579291/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="32" height="32"/></a>
+ 
